@@ -10,6 +10,22 @@
     background-size: cover;
     position: relative;
 }
+
+.navbar > .container {
+    margin: 0 1rem;
+    max-width: 100%;
+}
+
+.container.mt-4.pt-4 {
+    max-width: 900px;
+}
+
+.card {
+    border: none !important;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px -6px #cfc9c9;
+}
+
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
@@ -26,14 +42,14 @@
     color: white;
 }
 
-/* spacing on all sections */
-/* #about, #services, #portfolio, #contact {
-    margin-top: 4rem;
-    padding-top: 4rem;
-} */
 #contact {
     padding-bottom: 4rem;
 }
+
+section {
+    margin-bottom: 20rem;
+}
+
 /* about section image css */
 .imageAboutPage {
     width: 100%;
@@ -78,4 +94,21 @@
 #footer {
     background-color: #808080;
     text-align: center;
+}
+
+.two h1 {
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    line-height: 3em;
+    padding-left: 0.25em;
+    color: #c1c1c1;
+    padding-bottom: 10px;
+}
+
+.two p {
+    color: #9b9b9b;
+    font-size: 16px;
+    letter-spacing: 1px;
 }
