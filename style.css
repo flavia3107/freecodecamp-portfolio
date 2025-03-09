@@ -1,6 +1,6 @@
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
-    background-color: black;
+    background-color: #212121;
 }
 
 /* hero background image */
@@ -92,8 +92,8 @@ section {
 }
 /* footer styling */
 #footer {
-    background-color: #808080;
-    text-align: center;
+    background-color: #212121;
+    text-align: end;
 }
 
 .two h1 {
@@ -108,7 +108,31 @@ section {
 }
 
 .two p {
-    color: #9b9b9b;
+    color: #a7a7a7;
     font-size: 16px;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
+}
+
+::-webkit-scrollbar {
+    height: 9px;
+    width: 9px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #a7a7a7;
+    width: 9px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+    width: 9px;
+}
+
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+.fab {
+    font-size: 1.5rem;
+    color: white;
 }
