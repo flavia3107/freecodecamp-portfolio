@@ -72,7 +72,7 @@ section {
     color: #008000;
 }
 .servicesText:hover {
-    border: 1px solid #008000;
+    border: 1px solid #c2c2c2;
 }
 
 /* social media icons styling */
@@ -85,7 +85,7 @@ section {
 .fa-twitter:hover,
 .fa-linkedin:hover,
 .fa-twitch:hover {
-    color: #008000;
+    color: #c2c2c2;
 }
 .fab {
     color: #000000;
@@ -135,4 +135,60 @@ section {
 .fab {
     font-size: 1.5rem;
     color: white;
+}
+
+.logo > img {
+    height: 35px;
+}
+
+.logo-txt {
+    padding-left: 7px;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    align-items: flex-start;
+}
+
+.logo-img {
+    width: 2rem;
+    margin-right: 3px;
+}
+
+.logo-txt h1,
+.logo-txt span {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    letter-spacing: 4px;
+    color: #ffffff;
+}
+
+.logo-txt h1 {
+    font-weight: bolder;
+    font-size: 1.1rem;
+    margin-top: 2px;
+}
+
+.logo-txt span {
+    font-weight: lighter;
+    font-size: 0.85rem;
+}
+
+.flex-row {
+    height: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.nav-link {
+    color: #ffffffb5 !important;
+    font-weight: 500;
+}
+
+.btn-sm {
+    padding: 0.25rem 1rem !important;
 }
