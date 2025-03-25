@@ -12,6 +12,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+    <!-- load javascript after loading all html content -->
+    <script src="script/script.js" defer></script>
 </head>
 
 <body>
@@ -111,7 +113,8 @@
                         <div class="card-body">
                             <i class="fas servicesIcon fa-clock"></i>
                             <h4 class="card-title mt-3">Website Development</h4>
-                            <p class="card-text mt-3">Building responsive and interactive websites using HTML, CSS, and
+                            <p class="card-text mt-3 mb-3">Building responsive and interactive websites using HTML, CSS,
+                                and
                                 JavaScript frameworks like React, Angular. This includes structuring the site layout,
                                 implementing animations, and ensuring smooth user interactions to create a
                                 seamless browsing experience.
@@ -124,7 +127,7 @@
                         <div class="card-body">
                             <i class='fas servicesIcon fa-layer-group'></i>
                             <h4 class="card-title mt-3">UI/UX Implementation</h4>
-                            <p class="card-text mt-3">Translating designs from tools like Figma or Adobe XD into
+                            <p class="card-text mt-3 mb-3">Translating designs from tools like Figma or Adobe XD into
                                 pixel-perfect, functional user interfaces. This involves using modern CSS techniques,
                                 ensuring accessibility, and maintaining consistency across different screen
                                 sizes to provide an intuitive and engaging user experience.
@@ -137,7 +140,7 @@
                         <div class="card-body">
                             <i class='far servicesIcon fa-check-circle'></i>
                             <h4 class="card-title mt-3">Performance Optimization</h4>
-                            <p class="card-text mt-3">Enhancing website speed and efficiency by optimizing code,
+                            <p class="card-text mt-3 mb-3">Enhancing website speed and efficiency by optimizing code,
                                 compressing images, minimizing render-blocking resources, and
                                 leveraging lazy loading techniques. A well-optimized website improves user engagement,
                                 SEO rankings, and overall site
@@ -154,7 +157,7 @@
                         <div class="card-body">
                             <i class='fas servicesIcon fa-search'></i>
                             <h4 class="card-title mt-3">API Integration</h4>
-                            <p class="card-text mt-3">Connecting frontend applications with backend services using
+                            <p class="card-text mt-3 mb-3">Connecting frontend applications with backend services using
                                 RESTful APIs or GraphQL to fetch and send dynamic data, ensuring smooth communication
                                 between the client and server, and enabling features like
                                 real-time updates, authentication, and data management.
@@ -167,7 +170,8 @@
                         <div class="card-body">
                             <i class='fas servicesIcon fa-shield-alt'></i>
                             <h4 class="card-title mt-3">Cross-Browser Compatibility</h4>
-                            <p class="card-text mt-3">Ensuring websites function seamlessly across different browsers
+                            <p class="card-text mt-3 mb-3">Ensuring websites function seamlessly across different
+                                browsers
                                 and devices, including Chrome, Firefox, Safari, and
                                 Edge. This involves testing for inconsistencies, implementing polyfills and fallbacks,
                                 and writing CSS that adapts well
@@ -181,7 +185,8 @@
                         <div class="card-body">
                             <i class='fas servicesIcon fa-wrench'></i>
                             <h4 class="card-title mt-3">Frontend Maintenance & Debugging</h4>
-                            <p class="card-text mt-3">Updating, fixing bugs, and improving existing web applications to
+                            <p class="card-text mt-3 mb-3">Updating, fixing bugs, and improving existing web
+                                applications to
                                 enhance performance and security. This includes
                                 resolving UI/UX issues, refactoring code, and addressing
                                 compatibility problems for a smooth user experience.
@@ -288,17 +293,14 @@
 
     <!-- footer section-->
     <footer id="footer">
-        <div class="container-fluid">
+        <div class="container-fluid h-100">
             <!-- social media icons -->
-            <div class="social-icons mt-4">
-                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <div class="connect d-flex flex-column justify-content-center align-items-center h-100">
+                <span class="secondary-heading">Let’s Connect</span>
+                <span class="text-white">Always open to discuss, improve or help... </span>
             </div>
         </div>
     </footer>
-
-    <!-- load javascript after loading all html content -->
-    <script src="script/script.js"></script>
-
 </body>
 
 </html>

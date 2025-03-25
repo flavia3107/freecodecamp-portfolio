@@ -94,6 +94,7 @@ section {
 #footer {
     background-color: #212121;
     text-align: end;
+    height: 17rem;
 }
 
 .two h1 {
@@ -108,7 +109,7 @@ section {
 }
 
 .two p {
-    color: #a7a7a7;
+    color: #979696;
     font-size: 16px;
     letter-spacing: 1.5px;
 }
@@ -198,4 +199,21 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.card-img-top {
+    height: 20rem;
+    object-fit: cover;
+    width: 24rem !important;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.secondary-heading {
+    font-family: Plusjakartadisplay, sans-serif;
+    color: #fff;
+    line-height: 110%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 54px;
 }
